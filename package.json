@@ -1,6 +1,6 @@
 {
     "name": "color-groups",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Find and display HTML colors by group.",
     "main": "index.js",
     "scripts": {
@@ -9,6 +9,13 @@
         "mutate": "stryker run",
         "lint": "npx eslint index.js --fix",
         "lintTests": "npx eslint tests/*.test.js --fix"
+    },
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MeanBoyCousin/color-groups.git"
     },
     "keywords": [
         "color",
@@ -20,6 +27,10 @@
     ],
     "author": "Tim Dunphy",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MeanBoyCousin/color-groups/issues"
+    },
+    "homepage": "https://github.com/MeanBoyCousin/color-groups",
     "devDependencies": {
         "@stryker-mutator/core": "^3.1.0",
         "@stryker-mutator/javascript-mutator": "^3.1.0",

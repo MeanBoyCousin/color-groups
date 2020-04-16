@@ -11,3 +11,7 @@ script:
   - npm run mutate
 after_success:
 - bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: npm
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
