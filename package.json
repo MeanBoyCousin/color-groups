@@ -1,0 +1,35 @@
+{
+  "name": "color-groups",
+  "version": "1.0.0",
+  "description": "Find and display HTML colors by group.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testCov": "jest --coverage",
+    "mutate": "stryker run",
+    "lint": "npx eslint index.js --fix",
+    "lintTests": "npx eslint tests/*.test.js --fix"
+  },
+  "keywords": [
+    "color",
+    "color-groups",
+    "color-keyword",
+    "html-colors",
+    "keyword",
+    "css-color"
+  ],
+  "author": "Tim Dunphy",
+  "license": "MIT",
+  "devDependencies": {
+    "@stryker-mutator/core": "^3.1.0",
+    "@stryker-mutator/javascript-mutator": "^3.1.0",
+    "@stryker-mutator/jest-runner": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.3.0"
+  }
+}
